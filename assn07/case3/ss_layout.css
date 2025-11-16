@@ -7,7 +7,7 @@
    
    Layout Style Sheet for A Soldier's Scrapbook
    Author: Skyler LeMaster
-   Date:   11/16/2025
+   Date:   11/16/25
    
    Filename: ss_layout.css
 
@@ -43,7 +43,7 @@ article p:first-of-type::first-letter {
  
 
 /* Aside Styles */
-aside {
+aside {}
 width: 768px;
 float: left;
 }

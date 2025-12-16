@@ -20,6 +20,8 @@ nav {
     padding: 0;
     display: flex;
     flex-direction: column;
+    float: left;
+
 }
 
 /* header h1 */
@@ -43,19 +45,92 @@ header h3 {
 
 /* h1 */
 
+h1 {
+    font-family: arial, sans-serif;
+    font-size: 22pt;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 15px 0 0 15px;
+    color: darkslategray;
+}
+
 /* h3 */
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 16pt;
+  text-align: left;
+  color: rgb(74, 74, 75);
+}
 
 /* p */
 
+p {
+  margin: 15px;
+  padding: 15px;
+}
+
 /* a */
 
+a {
+  text-decoration: none;
+  color: #272a2e;
+}
+
+a:hover {
+  color: #575454;
+}
+
 /* table */
+
+table {
+border: none;
+width: 90%;
+margin-left: 30px;
+border-collapse: collapse;
+}
+
+td {
+  padding: 2px 5px; 
+}
 
 /* header */
 .header_img {
     float: right;
-    max-width: 300px;
-    max-height: 300px;
-    width: auto;
-    height: auto;
+    max-width: 240px;
+    max-height: 180px;
+}
+
+header {
+    background-color: lightslategray;
+    overflow: auto;
+    padding: 15px;
+}
+/* section */
+
+section {
+width: 75%;
+float: right;
+padding: 15px;
+background-color: lightgray;
+}
+
+.week-title {
+  background-color: darkgray;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: start;
+    width: 100%;
+}
+
+footer {
+    background-color: lightslategray;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }
